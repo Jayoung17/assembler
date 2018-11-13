@@ -14,10 +14,6 @@ int is_valid(char *op, char *args)
 			return 0;
 	}
 
-	if(args[0]=='$') {
-		if(args[i+1]=='$')
-			return 0;
-	}
 
 	if(args[i+1]=='$')
 		return 0;
