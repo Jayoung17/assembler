@@ -1,5 +1,5 @@
 myas: main.o trans.o check.o
-	gcc -o myas main.o trans.o check.o
+	gcc -o myas main.o trans.o check.o -lm
 
 main.o: main.c
 	gcc -c main.c
